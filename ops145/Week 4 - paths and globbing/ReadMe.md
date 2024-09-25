@@ -3,6 +3,8 @@ In this lesson, we focus on understanding directory navigation and relative path
 
 We will use a predefined directory structure to test your understanding of how to move between directories, create files, and navigate efficiently within a hierarchical file system.
 
+![tree](https://github.com/Colin-Stark/SLG/blob/main/ops145/Week%204%20-%20paths%20and%20globbing/Screenshot%202024-09-25%20105851.png)
+
 # Questions:
 1. Create this tree in a folder called Seneca on Matrix with just one command?
 
