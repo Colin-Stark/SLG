@@ -3,6 +3,14 @@ In this lesson, we focus on understanding directory navigation and relative path
 
 We will use a predefined directory structure to test your understanding of how to move between directories, create files, and navigate efficiently within a hierarchical file system.
 
+# Learning Resources
+[Note](https://jmcarman.github.io/OPS145/weekly-schedule)
+<br>
+[Slide 1](https://docs.google.com/presentation/d/e/2PACX-1vQs4X6Z9PkFW023Fw-oyb_vB1M_AltaJO5DTjxffKxQW42vlM1xMxjQCByPJM9qyuHA9-9JWkT51q8a/pub?start=false&loop=false&delayms=3000&slide=id.p1)
+<br>
+[Slide 2](https://docs.google.com/presentation/d/e/2PACX-1vQA9PNLXGvjMBZpDCXAaUAhCJ11WZK5IBkMEWCYQzST7QpFECnnIRP9AYVJZdAhVpbmqnIB4TsZ3SOa/pub?start=false&loop=false&delayms=3000&slide=id.p1)
+
+# Image
 ![tree](https://github.com/Colin-Stark/SLG/blob/main/ops145/Week%204%20-%20paths%20and%20globbing/Screenshot%202024-09-25%20105851.png)
 
 # Questions:
