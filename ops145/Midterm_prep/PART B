@@ -1,0 +1,140 @@
+# PART B QUESTION
+
+```
+tutorial3
+├── practice
+│   ├── commands
+│   │   ├── command1.txt
+│   │   ├── command2.txt
+│   │   ├── command3.txt
+│   │   ├── command4.txt
+│   │   └── command5.txt
+│   └── examples
+│       ├── example1.txt
+│       ├── example2.txt
+│       ├── example3.txt
+│       ├── example4.txt
+│       ├── example5.txt
+│       └── example6.txt
+└── notes
+    ├── lesson1
+    │   ├── lesson1.txt
+    │   └── lesson1_old.txt
+    └── lesson2
+        ├── lesson2.txt
+        └── lesson2_old.txt
+```
+
+## Create this directory in one command.
+
+### Copying Files
+
+1. You are in `~/slg/tutorial3/practice/examples`  
+   **Copy `command1.txt` from the `commands` directory to the `examples` directory using an absolute path.**  
+
+
+2. You are in `~/slg/tutorial3/practice/commands`  
+   **Copy `lesson1.txt` from the `notes/lesson1` directory to the `notes/lesson2` directory using a relative path.**  
+   
+
+3. You are in `~/slg/tutorial3/notes/lesson2`  
+   **Copy `example1.txt` from the `commands` directory to the `examples` directory using an absolute path.**  
+   
+
+4. You are in `~/slg/tutorial3/practice/notes`  
+   **Copy `lesson2.txt` from the `notes/lesson2` directory to the `commands` directory using a home path.**  
+
+
+5. You are in `~/slg/tutorial3/notes/lesson1`  
+   **Copy `example2.txt` from the `commands` directory to the `examples` directory using a relative path.**  
+   
+
+### Moving Files
+
+6. You are in `~/slg/tutorial3/notes/lesson1`  
+   **Move `command2.txt` from the `examples` directory to the `commands` directory using an absolute path.**  
+   
+
+7. You are in `~/slg/tutorial3/practice/commands`  
+   **Move `lesson1.txt` from the `notes/lesson1` directory to the `examples` directory using a relative path.**  
+  
+
+8. You are in `~/slg/tutorial3/practice/examples`  
+   **Move `example3.txt` from the `examples` directory to the `lesson1` directory using an absolute path.**  
+   
+
+9. You are in `~/slg/tutorial3/practice/examples`  
+   **Move `example4.txt` from the `commands` directory to the `notes/lesson2` directory using a home path.**  
+   
+
+10. You are in `~/slg/tutorial3/practice/commands`  
+    **Move `lesson2.txt` from `notes/lesson2` to `examples` using a relative path.**  
+    
+
+### Removing Files
+
+11. You are in `~/slg/tutorial3/notes/lesson2`  
+    **Remove `command3.txt` from the `commands` directory using an absolute path.**  
+    
+
+12. You are in `~/slg/tutorial3/practice/examples`  
+    **Remove `lesson1_old.txt` from the `notes/lesson1` directory using a relative path.**  
+    
+
+13. You are in `~/slg/tutorial3/practice/commands`  
+    **Remove `example5.txt` from the `examples` directory using a home path.**  
+   
+
+14. You are in `~/slg/tutorial3/notes/lesson2`  
+    **Remove `command4.txt` from the `commands` directory using a relative path.**  
+    
+
+15. You are in `~/slg/tutorial3/practice/examples`  
+    **Remove `lesson2_old.txt` from the `notes/lesson2` directory using an absolute path.**  
+    
+
+### Renaming Files
+
+16. You are in `~/slg/tutorial3/practice/notes`  
+    **Rename `command5.txt` in the `commands` directory to `command5_renamed.txt` using a relative path.**  
+   
+
+17. You are in `~/slg/tutorial3/notes/lesson1`  
+    **Rename `example6.txt` in the `examples` directory to `example6_renamed.txt` using an absolute path.**  
+    
+
+18. You are in `~/slg/tutorial3/practice/commands`  
+    **Rename `lesson1.txt` in the `lesson1` directory to `lesson1_final.txt` using a relative path.**  
+   
+
+
+
+## Section B
+
+1. You are in ~/slg/tutorial3/practice/examples
+Create a file named new_file.txt in the commands directory using an absolute path.
+(Target Path: ~/slg/tutorial3/practice/commands/new_file.txt)
+
+2. You are in ~/slg/tutorial3/practice/commands
+Create a file named temp_file.txt in the examples directory using a relative path.
+(Target Path: ~/slg/tutorial3/practice/examples/temp_file.txt)
+
+3. You are in ~/slg/tutorial3/practice/commands
+Create a soft link named soft_link_to_command1.txt pointing to command1.txt in the commands directory using an absolute path.
+(Source Path: ~/slg/tutorial3/practice/commands/command1.txt, Link Path: ~/slg/tutorial3/practice/commands/soft_link_to_command1.txt)
+
+4. You are in ~/slg/tutorial3/practice/examples
+Create a hard link named hard_link_to_example1.txt pointing to example1.txt in the examples directory using a home path.
+(Source Path: ~/slg/tutorial3/practice/examples/example1.txt, Link Path: ~/slg/tutorial3/practice/examples/hard_link_to_example1.txt)
+
+5. You are in ~/slg/tutorial3/practice/commands
+Display the inode number of command1.txt using an absolute path.
+(Path: ~/slg/tutorial3/practice/commands/command1.txt)
+
+6. You are in ~/slg/tutorial3/practice/examples
+Display the inode number of soft_link_to_command1.txt using a relative path.
+(Path: ../commands/soft_link_to_command1.txt)
+
+7. You are in ~/slg/tutorial3/practice/examples
+Display the inode number of hard_link_to_example1.txt using a home path.
+(Path: ~/slg/tutorial3/practice/examples/hard_link_to_example1.txt)
