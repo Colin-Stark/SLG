@@ -1,0 +1,36 @@
+# PART A-COMMANDS
+
+
+1. **What is a “Linux Cluster”?**  
+   What is an advantage of using a Linux cluster?
+
+2. **List two unique server names at Seneca Polytechnic**  
+   and briefly explain the purpose of that server.
+
+3. **List the steps to connect and login to your Matrix Seneca Polytechnic account**  
+   on your laptop or your home computer.
+
+4. **List 3 unique ways to log-out of your Matrix account**  
+   (not including closing the SSH window or application).
+
+5. **What is the difference between a Linux command and an argument?**
+
+6. **What is the purpose of a Linux command option?**
+
+7. **What character(s) are used to separate commands and arguments?**
+
+8. **Create a table listing each Linux command,**  
+   useful options that were mentioned in this tutorial for the following Linux commands:
+
+   | Command | Useful Options            |
+   |---------|---------------------------|
+   | pwd     |                           |
+   | cd      |                           |
+   | ls      |                           |
+   | cal     |                           |
+   | date    |                           |
+   | who     |                           |
+   | w       |                           |
+   | whoami  |                           |
+   | who am I|                           |
+   | clear   |                           |
