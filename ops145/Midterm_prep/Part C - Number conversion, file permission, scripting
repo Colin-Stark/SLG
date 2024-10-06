@@ -1,0 +1,50 @@
+# PART C
+
+
+How many binary digits does 1 octal digit represent?
+Use manual numbering conversion to complete the table displayed below.
+Octal	          Binary
+640	
+                110100100
+145	
+                111010100
+755	
+                110100100
+
+
+
+Write the chmod command (using the symbolic method) to set “pass-through” permissions (eg. r w x - - x - - x) for your home directory using an absolute pathname.
+
+Write a Linux command to verify that permissions where set.
+Perform a binary to octal numbering conversion for the permissions: r w x - - x - - x
+
+Write single Linux command to set “pass-through” permissions for your home directory, using the absolute method (i.e. octal numbers).
+Write a single Linux command to add read permissions for same group members for the ~/tests directory.
+
+Write a single Linux command to remove write permissions for same group members and other group members for the ~/projects directory. Use the symbolic method.
+
+Write a single Linux command to set the permissions for the ~/assignments directory to the following using the absolute method (i.e. octal numbers): r w x r - x - - x Show your work to perform a binary to octal conversion.
+
+Write the command below using octal numbers and using a relative-to-home pathname.
+Assume that you just issued the command:
+
+chmod u=rwx,go=x ~/linux/content
+
+What would be the new permissions for the “content” directory?
+Assume that you just issued the commands:
+umask 077
+
+mkdir mydir
+
+touch mydir/myfile.txt
+
+What would be the permissions for the newly created directory and regular file? (show your work)
+Scripting: Write Bash Shell Script Code
+
+Write a Bash shell script that clears the screen and displays the text Hello World on the screen.
+
+What permissions are required to run this Bash shell script?
+What are the different methods that you can run this Bash shell script from the command line?
+Write a Bash shell script that clears the screen, prompts the user for their full name and then prompts the user for their age, then clears the screen again and welcomes the user by their name and tells them their age.
+
+What comments would you add to the above script’s contents to properly document this Bash shell script to be understood for those users that would read / edit this Bash shell script’s contents?
