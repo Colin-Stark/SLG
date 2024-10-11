@@ -1,3 +1,8 @@
+# Find Answers Here
+[ANSWER](https://github.com/Colin-Stark/SLG-ANSWER/tree/main/midterm)
+
+
+
 # OPS145 SLG Session
 
 Welcome to the **OPS145 SLG Session** repository. This space is designed to provide supplemental learning resources and practice questions for students enrolled in **OPS145**. The SLG (Supplemental Learning Group) sessions are dedicated to helping you reinforce the concepts learned in the course and improve your proficiency with Unix-based systems and command-line operations.
