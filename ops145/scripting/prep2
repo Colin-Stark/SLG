@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+read -p "What is your name: " FullName
+
+read -p "Where do you want to save this: " Filename
+
+echo $FullName > $Filename
+
+if [ $? != 0 ]
+then
+        echo "This $FullName wouldn't be saved in $Filename"
+else
+        echo "The $FullName was added to the $Filename"
+fi
