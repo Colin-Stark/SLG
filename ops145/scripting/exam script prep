@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#part 1
+if [ $# -lt 5 ]  # Positional Parameter Mixed with control statement
+then
+        echo "paul" 
+        exit 3  
+fi
+
+# part 2
+for item in $*  #loop
+do
+        echo $item | grep "^[0-9][0-9]*$" > /dev/null  # piping, regular expression and redirection
+        if [ $? != 0 ]  # Control Statement
+        then
+                echo "John"
+                exit 2
+        fi
+done
+
+# part 3
+((x=$2+$3+50)) # Maths operation in script
+echo "$2 plus $3 plus fifty = $x" 
+shift
+echo "$1 multiplied by $3 is: " $(($1*$3))
